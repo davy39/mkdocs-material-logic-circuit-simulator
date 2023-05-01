@@ -44,6 +44,10 @@ markdown_extensions:
   - toc:
       permalink: true
       separator: "_"
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+
 
 plugins:
   - search:
