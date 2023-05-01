@@ -1,5 +1,5 @@
 === "Tab1"
-  <div style="width: 100%; height: 400px">
+    <div style="width: 100%; height: 400px">
     <logic-editor mode="design" showonly="and or not xor">
       <script type="application/json">
         {
@@ -10,9 +10,9 @@
         }
       </script>
     </logic-editor>
-  </div>
+    </div>
 === "Tab2"
-  <div style="width: 100%; height: 400px">
+    <div style="width: 100%; height: 400px">
     <logic-editor mode="design" showonly="and or not xor">
       <script type="application/json">
         {
@@ -23,9 +23,9 @@
         }
       </script>
     </logic-editor>
-  </div>
+    </div>
 === "Tab3"
-  <div style="width: 100%; height: 400px">
+    <div style="width: 100%; height: 400px">
     <logic-editor mode="design" showonly="and or not xor">
       <script type="application/json">
         {
@@ -36,9 +36,9 @@
         }
       </script>
     </logic-editor>
-  </div>
+    </div>
 === "Tab4"
-  <div style="width: 100%; height: 400px">
+    <div style="width: 100%; height: 400px">
     <logic-editor mode="design" showonly="and or not xor">
       <script type="application/json">
         {
@@ -49,4 +49,4 @@
         }
       </script>
     </logic-editor>
-  </div>
+    </div>
