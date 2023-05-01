@@ -11,7 +11,6 @@
       </script>
     </logic-editor>
   </div>
-
 === "Tab2"
   <div style="width: 100%; height: 400px">
     <logic-editor mode="design" showonly="and or not xor">
@@ -25,7 +24,6 @@
       </script>
     </logic-editor>
   </div>
-  
 === "Tab3"
   <div style="width: 100%; height: 400px">
     <logic-editor mode="design" showonly="and or not xor">
@@ -39,7 +37,6 @@
       </script>
     </logic-editor>
   </div>
-  
 === "Tab4"
   <div style="width: 100%; height: 400px">
     <logic-editor mode="design" showonly="and or not xor">
