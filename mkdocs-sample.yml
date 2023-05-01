@@ -23,8 +23,20 @@ theme:
     previous: 80 # p
     search: 83 # s
   palette:
-    primary: "blue"
-    accent: "blue"
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Passer au mode nuit
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Passer au mode jour
   features:
     - tabs
   #font:
