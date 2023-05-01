@@ -680,21 +680,18 @@
 <li><a href="https://github.com/pypa/pipenv">pypa/pipenv: Python Development Workflow for Humans.</a></li>
 </ul>
 <h2 id="install_all_packages">Install all packages<a class="headerlink" href="#install_all_packages" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><code>pipenv sync --dev  <span class="c1"># Installs all packages specified in Pipfile.lock.</span>
+<div class="highlight"><pre><span></span><code>pipenv sync --dev  <span class="c1"># Installs all packages specified in Pipfile.lock.</span>
 </code></pre></div>
-
 <h2 id="run_mkdocs">Run MkDocs<a class="headerlink" href="#run_mkdocs" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><code>pipenv shell  <span class="c1"># Spawns a shell within the virtualenv.</span>
+<div class="highlight"><pre><span></span><code>pipenv shell  <span class="c1"># Spawns a shell within the virtualenv.</span>
 mkdocs serve
 </code></pre></div>
-
 <p>Or, run <code>mkdocs</code> with <code>pipenv run</code></p>
-<div class="codehilite"><pre><span></span><code>pipenv run mkdocs serve
+<div class="highlight"><pre><span></span><code>pipenv run mkdocs serve
 </code></pre></div>
-
 <h2 id="pipenv_run"><code>pipenv run</code><a class="headerlink" href="#pipenv_run" title="Permanent link">&para;</a></h2>
 <p>pipenv task are also defined by <a href="https://github.com/peaceiris/mkdocs-material-boilerplate/blob/main/Pipfile">Pipfile</a></p>
-<div class="codehilite"><pre><span></span><code>pipenv run version    <span class="c1"># mkdocs --version</span>
+<div class="highlight"><pre><span></span><code>pipenv run version    <span class="c1"># mkdocs --version</span>
 pipenv run <span class="nb">help</span>       <span class="c1"># mkdocs --help</span>
 pipenv run inv serve  <span class="c1"># inv serve</span>
 pipenv run serve      <span class="c1"># mkdocs serve</span>
