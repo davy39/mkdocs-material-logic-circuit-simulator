@@ -72,7 +72,7 @@ extra_javascript:
   - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"
   - "assets/js/bundle.js"
   - |
-  $(document).ready(function() {
+  """$(document).ready(function() {
     // Check out what theme is set when loading the page
     if ($('body').attr('data-md-color-scheme') === 'slate') {
         Logic.setDarkMode(true);
@@ -87,7 +87,7 @@ extra_javascript:
     $('input[data-md-color-media="(prefers-color-scheme: light)"]').change(function() {
         Logic.setDarkMode(false);
     });
-  });
+  });"""
 extra_css:
   - "assets/css/custom.css"
 extra:
